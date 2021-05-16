@@ -427,6 +427,7 @@ ul {
 		width: 280px;
 		margin: 20px 0px;
 
+
 	}
 	.news0:hover {
 	width: 300px;
@@ -435,6 +436,7 @@ ul {
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
 }
+
 
 .news1:hover {
 	width: 300px;
@@ -470,6 +472,48 @@ ul {
 	border-bottom-right-radius: 20px;
 }
 
+
+.photoses {
+	flex-direction: column;
+}
+
+.contact {
+	flex-direction: column;
+	width: 300px;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.www  {
+	width: 200px;
+	margin-top: 20px;
+}
+
+
+.footer {
+	flex-direction: column;
+}
+
+.preim2  {
+	width: 300px;
+}
+
+
+.ifram {
+	width: 300px;
+	
+}
+
+
+.courses {
+	flex-direction: column;
+	height: auto;
+	width: 300px;
+	justify-content: center;
+	align-items: center;
+}
+	
 }
 
 
