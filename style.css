@@ -26,6 +26,12 @@
 	list-style: none;
 }
 
+.menu-bottom {
+	ustify-content: space-around;
+	display: flex;
+	list-style: none;
+}
+
 .menu1 {
 	text-decoration: none;
 	line-height: 75px;
@@ -520,6 +526,13 @@ ul {
 	flex-direction: column;
 	text-align: center;
 }
+
+.menu-bottom {
+
+}
+
+
+
 }
 
 
