@@ -68,7 +68,7 @@ body {
 	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 	color: white;
 
-	font-family: 'Pacifico', cursive;
+	
 }
 
 
@@ -228,7 +228,7 @@ ul {
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
-	
+	flex-direction: row;
 
 }
 
@@ -396,22 +396,133 @@ ul {
 } 
 
 
-
-
-
-@media (max-width: 320px) {
+@media (max-width: 420px) {
 	.logo-tip {
-		width: 70px;
-		height: 70px; 
+		
 		display: none;
 	}
-} 
+
+	body {
+		
+	}
+	.news {
+		flex-direction: column;
+	}
+	.news0, .news1, .news2, .news3, .news4 {
+		width: 280px;
+		margin: 20px auto;
 
 
-@media (max-width: 320px) {
-	.logo-tip {
-		width: 70px;
-		height: 70px; 
+
+	}
+	.news0:hover {
+		width: 300px;
+		background: pink;
+		overflow-y: scroll;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+
+
+	.news1:hover {
+		width: 300px;
+		background: lightblue;
+		overflow-y: scroll;
+		height: 400px;
+
+
+	}
+
+
+
+
+
+	.news2:hover {
+		width: 300px;
+		background: green;
+		overflow-y:  scroll;
+	}
+
+	.news3:hover {
+		width: 300px;
+		background: lightgreen;
+		overflow-y: scroll;
+	}
+
+
+	.news4:hover {
+		width: 300px;
+		background: red;
+		overflow-y: scroll;
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+	}
+
+
+	.photoses {
+		flex-direction: column;
+		padding: 0px;
+	}
+
+	.contact {
+		flex-direction: column;
+		width: 300px;
+		height: auto;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.www  {
+		width: 200px;
+		margin-top: 20px;
+	}
+
+
+	.footer {
+		flex-direction: column;
+	}
+
+	.preim2  {
+		width: 300px;
+	}
+
+
+	.ifram {
+		width: 300px;
+
+	}
+
+
+	.courses {
+		flex-direction: column;
+		height: auto;
+		width: 300px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.f {
 		display: none;
 	}
+	
+
+
+	.counteiner {
+		width: 300px;
+		
+
+	}
+
+	.menu {
+	justify-content: space-around;
+	display: flex;
+	list-style: none;
+	flex-direction: column;
+	text-align: center;
 }
+}
+
+
+
+
+
